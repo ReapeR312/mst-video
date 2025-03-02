@@ -1,0 +1,322 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+@font-face {
+  font-family: "Averta";
+  src: url(averta-semibold.ttf);
+}
+
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: black;
+  color: white;
+  font-size: 5vw;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  transform-origin: top left;
+}
+
+.qd {
+  position: absolute;
+  color: rgb(247, 247, 247);
+  height: 4.6vw;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  z-index: 99999;
+}
+
+.t {
+  position: absolute;
+  color: rgb(247, 247, 247);
+  font-size: 9vw;
+  z-index: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3vw;
+  font-family: "Averta";
+}
+
+.q1 {
+  top: 4.6vw;
+  left: 45.3vw;
+  width: 19.9vw;
+}
+.q2 {
+  top: 15.1vw;
+  left: 30.9vw;
+  width: 6.2vw;
+}
+.q3 {
+  top: 25.5vw;
+  left: 43.4vw;
+  width: 13.8vw;
+}
+.q4 {
+  top: 35.97vw;
+  left: 49.2vw;
+  width: 49.7vw;
+}
+.q5 {
+  display: none;
+}
+.text-1 {
+  top: 1.8vw;
+  left: 1.2vw;
+}
+.text-2 {
+  top: 2vw;
+  left: 67.4vw;
+  letter-spacing: -0.5vw;
+}
+.text-3 {
+  top: 12vw;
+  left: 1vw;
+  letter-spacing: -0.5vw;
+}
+.text-4 {
+  top: 12vw;
+  left: 37.7vw;
+  letter-spacing: -0.3vw;
+}
+.text-5 {
+  top: 22.5vw;
+  left: 1vw;
+  letter-spacing: -0.4vw;
+}
+.text-6 {
+  top: 22.6vw;
+  left: 58vw;
+  letter-spacing: -0.5vw;
+}
+.text-7 {
+  top: 33vw;
+  left: 1vw;
+  letter-spacing: -0.61vw;
+}
+
+@media (max-width: 800px) {
+  .container {
+    font-size: 5vw;
+  }
+
+  .qd {
+    height: 7.7vw;
+  }
+
+  .t {
+    font-size: 13vw;
+    letter-spacing: -0.3vw;
+  }
+
+  .q1 {
+    top: 6.7vw;
+    left: 64.3vw;
+    width: 32.3vw;
+  }
+  .q2 {
+    top: 21.3vw;
+    left: 15vw;
+    width: 51.2vw;
+  }
+  .q3 {
+    top: 35.8vw;
+    left: 1.5vw;
+    width: 22.7vw;
+  }
+  .q4 {
+    top: 64.97vw;
+    left: 23.6vw;
+    width: 16.9vw;
+  }
+  .q5 {
+    display: block;
+    top: 79.6vw;
+    left: 69vw;
+    width: 27.6vw;
+  }
+
+  .text-1 {
+    top: 3vw;
+    left: 1.2vw;
+    letter-spacing: -0.4vw;
+  }
+  .text-2 {
+    top: 18vw;
+    left: 1.4vw;
+    letter-spacing: -0.5vw;
+    word-spacing: 52vw;
+  }
+  .text-3 {
+    top: 32.7vw;
+    left: 25.8vw;
+    letter-spacing: -0.6vw;
+  }
+  .text-4 {
+    top: 32.5vw;
+    left: 69.8vw;
+    letter-spacing: -0.7vw;
+  }
+  .text-4 span {
+    position: absolute;
+    top: 14.5vw;
+    left: -68.8vw;
+    letter-spacing: -0.2vw;
+  }
+  .text-5 {
+    top: 47.5vw;
+    left: 60vw;
+    letter-spacing: -0.4vw;
+  }
+  .text-5 span {
+    position: absolute;
+    top: 14vw;
+    left: -58.8vw;
+    letter-spacing: -0.9vw;
+  }
+  .text-6 {
+    top: 62vw;
+    left: 42vw;
+    letter-spacing: -0.7vw;
+  }
+  .text-7 {
+    top: 76vw;
+    left: 1vw;
+    letter-spacing: -0.9vw;
+  }
+}
